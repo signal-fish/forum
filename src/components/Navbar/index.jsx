@@ -66,11 +66,11 @@ const SearchWrapper = styled.div`
 
 S.InputBase = styled(InputBase)`
   color: #ffffff;
-  margin-left: ${(props) => props.theme.spacing(1)};
+  margin-left: 8px;
 `;
 
 S.Cancel = styled(Cancel)`
-  margin-right: ${(props) => props.theme.spacing(1)};
+  margin-right: 8px;
 
   ${tablet({
     display: "none",
@@ -83,7 +83,7 @@ const Icons = styled.div`
 `;
 
 S.Search = styled(Search)`
-  margin-right: ${(props) => props.theme.spacing(2)};
+  margin-right: 16px;
 
   ${tablet({
     display: "none",
@@ -91,10 +91,10 @@ S.Search = styled(Search)`
 `;
 
 S.MailBadge = styled(Badge)`
-  margin-right: ${(props) => props.theme.spacing(2)};
+  margin-right: 16px;
 `;
 
 S.MsgBadge = styled(Badge)`
-  margin-right: ${(props) => props.theme.spacing(2)};
+  margin-right: 16px;
 `;
 export default Navbar;
