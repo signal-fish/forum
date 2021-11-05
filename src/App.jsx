@@ -3,36 +3,37 @@ import Grid from "@mui/material/Grid";
 import Navbar from "./components/Navbar";
 import LeftBar from "./components/LeftBar";
 import Feed from "./components/Feed";
-import RightBar from "./components/RightBar"
-import { tablet } from "./responsive";
+import RightBar from "./components/RightBar";
+import Add from "./components/Add";
+import { md } from "./responsive";
 
 const App = () => {
   return (
     <Container>
       <Navbar />
       <Grid container>
-        <Grid item sm={2} xs={2}>
+        <Grid item md={2} sm={3} xs={2}>
           <LeftBar />
         </Grid>
-        <Grid item sm={7} xs={10}>
+        <Grid item md={7} sm={9} xs={10}>
           <Feed />
         </Grid>
-        <Grid item sm={3}>
+        <S.Grid item md={3}>
           <RightBar />
-        </Grid>
-        <RightBarWrapper></RightBarWrapper>
+        </S.Grid>
       </Grid>
+      <Add />
     </Container>
   );
 };
 
+const S = {};
+
 const Container = styled.div``;
 
-const RightBarWrapper = styled.div`
-  display: none;
-
-  ${tablet({
-    display: "block",
+S.Grid = styled(Grid)`
+  ${md({
+    display: "none",
   })}
 `;
 export default App;

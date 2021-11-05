@@ -88,3 +88,137 @@ export const feedData = [
     text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut laborum deserunt tenetur ratione possimus voluptate ducimus sunt dolores libero error vitae aperiam incidunt consequatur, facilis id officia sit facere vero fuga. Nesciunt, facere est pariatur aperiam vero iste modi exercitationem?",
   },
 ];
+
+// For RightBar Component
+export const rightBarAvatarData = [
+  {
+    name: "Remy Lee",
+    img: "assets/p1.jpeg",
+  },
+  {
+    name: "Amy Lam",
+    img: "assets/p2.jpeg",
+  },
+  {
+    name: "Penny Smith",
+    img: "assets/p3.jpeg",
+  },
+  {
+    name: "Blare Trump",
+    img: "assets/p4.jpeg",
+  },
+  {
+    name: "Eru Yu",
+    img: "assets/p5.jpeg",
+  },
+  {
+    name: "Alan Duke",
+    img: "assets/p6.png",
+  },
+  {
+    name: "Eri Smith",
+    img: "assets/p7.png",
+  },
+  {
+    name: "Amy Jia",
+    img: "assets/p8.png",
+  },
+  {
+    name: "Blare Musk",
+    img: "assets/p9.png",
+  },
+  {
+    name: "Nancy Mongo",
+    img: "assets/p10.png",
+  },
+  {
+    name: "Yumy Lee",
+    img: "assets/p11.jpeg",
+  },
+  {
+    name: "Marsha Yu",
+    img: "assets/p12.jpeg",
+  },
+  {
+    name: "Mike Smith",
+    img: "assets/p13.jpeg",
+  },
+  {
+    name: "Blare Tang",
+    img: "assets/p14.jpeg",
+  },
+  {
+    name: "Even Yu",
+    img: "assets/p15.jpeg",
+  },
+  {
+    name: "Muly Lee",
+    img: "assets/p16.jpeg",
+  },
+  {
+    name: "Amy Sho",
+    img: "assets/p17.jpeg",
+  },
+  {
+    name: "Penny Obama",
+    img: "assets/p18.jpeg",
+  },
+  {
+    name: "Eyu Trump",
+    img: "assets/p19.jpeg",
+  },
+  {
+    name: "Erily Yu",
+    img: "assets/p20.jpeg",
+  },
+];
+
+export const rightBarImageListData = [
+  {
+    name: "gallery 1",
+    img: "assets/g1.jpeg",
+  },
+  {
+    name: "gallery 2",
+    img: "assets/g2.jpeg",
+  },
+  {
+    name: "gallery 3",
+    img: "assets/g3.jpeg",
+  },
+  {
+    name: "gallery 4",
+    img: "assets/g4.jpeg",
+  },
+  {
+    name: "gallery 5",
+    img: "assets/g5.jpeg",
+  },
+  {
+    name: "gallery 6",
+    img: "assets/g6.jpeg",
+  },
+  {
+    name: "gallery 7",
+    img: "assets/g7.jpeg",
+  },
+  {
+    name: "gallery 8",
+    img: "assets/g8.jpeg",
+  },
+];
+
+export const RightBarCategoriesData = [
+  "Sport",
+  "Food",
+  "Music",
+  "Movies",
+  "Science",
+  "Life",
+  "Fashion",
+  "Language",
+  "Financial",
+  "Technique",
+  "Health",
+  "Travel",
+];

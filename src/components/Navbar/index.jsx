@@ -16,7 +16,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar>
+    <S.AppBar>
       <S.Toolbar>
         <Typography variant="h6">Fish</Typography>
         <SearchWrapper open={open}>
@@ -26,20 +26,24 @@ const Navbar = () => {
         </SearchWrapper>
         <Icons open={open}>
           <S.Search onClick={() => setOpen(true)} />
-          <S.MailBadge>
+          <S.MailBadge badgeContent={2} color="secondary">
             <Mail />
           </S.MailBadge>
-          <S.MsgBadge>
+          <S.MsgBadge badgeContent={3} color="secondary">
             <Notifications />
           </S.MsgBadge>
           <Avatar src="assets/signal-fish.jpg" alt="Signal Fish" />
         </Icons>
       </S.Toolbar>
-    </AppBar>
+    </S.AppBar>
   );
 };
 
 const S = {};
+
+S.AppBar = styled(AppBar)`
+position: fixed;
+`
 
 S.Toolbar = styled(Toolbar)`
   display: flex;

@@ -16,7 +16,7 @@ const Post = ({ img, title, text }) => {
       <CardActionArea>
         <S.CardMedia image={img} title="My Post"></S.CardMedia>
         <CardContent>
-          <Typography>{title}</Typography>
+          <Typography variant="h5">{title}</Typography>
           <Typography>{text}</Typography>
         </CardContent>
       </CardActionArea>
@@ -39,7 +39,7 @@ S.Card = styled(Card)`
 `;
 
 S.CardMedia = styled(CardMedia)`
-  height: 300px;
+  height: 200px;
 
   ${tablet({
     height: "250px",

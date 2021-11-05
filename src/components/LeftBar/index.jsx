@@ -39,10 +39,15 @@ S.Container = styled(Container)`
 const Item = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 6px;
+  padding: 0px 0 10px 0;
+  
+  &:hover {
+    background: #ebebeb;
+  }
 
   ${tablet({
-    marginBottom: "24px",
+    marginBottom: "12px",
     cursor: "pointer",
   })}
 `;

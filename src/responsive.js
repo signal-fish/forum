@@ -16,6 +16,14 @@ export const tabletPro = (props) => {
   `;
 };
 
+export const md = (props) => {
+  return css`
+    @media only screen and (max-width: 900px) {
+      ${props}
+    }
+  `;
+};
+
 export const laptop = (props) => {
   return css`
     @media only screen and (min-width: 1024px) {
@@ -32,9 +40,17 @@ export const laptopPro = (props) => {
   `;
 };
 
-export const DesktopPro = (props) => {
+export const Desktop = (props) => {
   return css`
     @media only screen and (min-width: 1440px) {
+      ${props}
+    }
+  `;
+};
+
+export const DesktopPro = (props) => {
+  return css`
+    @media only screen and (min-width: 1680px) {
       ${props}
     }
   `;
