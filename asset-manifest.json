@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/forum/static/js/main.65077119.chunk.js",
+    "main.js.map": "/forum/static/js/main.65077119.chunk.js.map",
+    "runtime-main.js": "/forum/static/js/runtime-main.9069fa2e.js",
+    "runtime-main.js.map": "/forum/static/js/runtime-main.9069fa2e.js.map",
+    "static/js/2.c20e0b6a.chunk.js": "/forum/static/js/2.c20e0b6a.chunk.js",
+    "static/js/2.c20e0b6a.chunk.js.map": "/forum/static/js/2.c20e0b6a.chunk.js.map",
+    "index.html": "/forum/index.html",
+    "static/js/2.c20e0b6a.chunk.js.LICENSE.txt": "/forum/static/js/2.c20e0b6a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9069fa2e.js",
+    "static/js/2.c20e0b6a.chunk.js",
+    "static/js/main.65077119.chunk.js"
+  ]
+}
